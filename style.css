@@ -130,32 +130,31 @@ nav ul li a {
 }
 /******************* features ****************/
 #features {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.feature_row{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+.feature_row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.feature_col{
-    flex-basis: 25%;
-
+.feature_col {
+  flex-basis: 25%;
 }
-.feature_col img{
-    width: 100px;
+.feature_col img {
+  width: 100px;
 }
-.features_btn{
-    margin: 80px auto 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+.features_btn {
+  margin: 80px auto 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
-.features_btn .line{
-    text-align: right;
-    display: inline-block;
-    margin-right: 25px;
+.features_btn .line {
+  text-align: right;
+  display: inline-block;
+  margin-right: 25px;
 }
