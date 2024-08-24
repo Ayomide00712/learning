@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo{
+    width: 100px;
+    margin-top: 30px;
+}
+.header-text{
+    width: 350px;
+    margin-top: 140px;
+}
+h1{
+    font-size: 35px;
+}
+.square{
+    width: 12px;
+    height: 12px;
+    background-color: #f67cf6;
+    display: inline-block;
+    margin: 15px 0;
+}
+.common-btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67cf6;
+    font-weight: bold;
+    cursor: pointer;
+}
