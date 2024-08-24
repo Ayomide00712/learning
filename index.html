@@ -24,8 +24,42 @@
             iure illo.
           </p>
           <button class="common-btn">Read more</button>
+          <div class="line">
+            <span class="line-1"></span> <br>
+            <span class="line-2"></span><br>
+            <span class="line-3"></span>
+          </div>
         </div>
       </div>
     </header>
+    <nav id="side_nav">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">COURSES</a></li>
+            <li><a href="#">OFFER</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+    </nav>
+    <img src="images/menu.png" alt="menuIcon" id="menu_btn">
+ 
+ 
+ 
+  <!------------------- Script --------------------------- -->
+    <script>
+      var menu_btn = document.getElementById("menu_btn");
+      var side_nav = document.getElementById("side_nav");
+
+      side_nav.style.right = "-250px";
+      menu_btn.onclick = function(){
+        if(side_nav.style.right == "-250px"){
+          side_nav.style.right = "0";
+        }
+        else{
+          side_nav.style.right = "-250px";
+        }
+      } 
+    </script>
   </body>
 </html>
