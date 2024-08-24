@@ -25,41 +25,101 @@
           </p>
           <button class="common-btn">Read more</button>
           <div class="line">
-            <span class="line-1"></span> <br>
-            <span class="line-2"></span><br>
+            <span class="line-1"></span> <br />
+            <span class="line-2"></span><br />
             <span class="line-3"></span>
           </div>
         </div>
       </div>
     </header>
     <nav id="side_nav">
-          <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">FEATURES</a></li>
-            <li><a href="#">COURSES</a></li>
-            <li><a href="#">OFFER</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">COURSES</a></li>
+        <li><a href="#">OFFER</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
     </nav>
-    <img src="images/menu.png" alt="menuIcon" id="menu_btn">
- 
- 
- 
-  <!------------------- Script --------------------------- -->
+    <img src="images/menu.png" alt="menuIcon" id="menu_btn" />
+
+    <!------------------------- About -------------------------->
+
+    <section id="about">
+      <div class="about_left_col">
+        <img src="images/about.png" alt="" />
+      </div>
+      <div class="about_right_col">
+        <div class="about_text">
+          <h1>About Us</h1>
+          <span class="square"></span>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id sed,
+            error at esse fuga cupiditate doloribus. Dolores, consequatur aut ad
+            atque amet accusantium porro quos incidunt labore iste velit
+            veritatis.
+          </p>
+          <br /><br />
+          <div class="line">
+            <span class="line-1"></span> <br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+          <h2>
+            "Learning is not attained by chance, it must be sought for with
+            ardor and attended to eith diligence"
+          </h2>
+          <h3>----Kassim</h3>
+        </div>
+      </div>
+    </section>
+
+    <!------------ features ----------------->
+    <section id="features">
+      <div class="feature_row">
+        <div class="feature_col">
+          <img src="images/pic-1.png" alt="" />
+          <h4>Learn every where</h4>
+          <p>switch betwwn your computer, tablet or mobile</p>
+        </div>
+        <div class="feature_col">
+          <img src="images/pic-2.png" alt="" />
+          <h4>Expert Teachers</h4>
+          <p>Learn from industry expert who are passionate about teaching.</p>
+        </div>
+        <div class="feature_col">
+          <img src="images/pic-3.png" alt="" />
+          <h4>Unlimit Access</h4>
+          <p>
+            Choose what you would like to learn from us from our extensive
+            sunbscription library
+          </p>
+        </div>
+      </div>
+      <div class="features_btn ">
+        <div class="line">
+          <span class="line-1"></span> <br />
+          <span class="line-2"></span><br />
+          <span class="line-3"></span>
+        </div>
+        <button class="common-btn">Read more</button>
+      </div>
+    </section>
+
+    <!------------------- Script --------------------------- -->
     <script>
       var menu_btn = document.getElementById("menu_btn");
       var side_nav = document.getElementById("side_nav");
 
       side_nav.style.right = "-250px";
-      menu_btn.onclick = function(){
-        if(side_nav.style.right == "-250px"){
+      menu_btn.onclick = function () {
+        if (side_nav.style.right == "-250px") {
           side_nav.style.right = "0";
-        }
-        else{
+        } else {
           side_nav.style.right = "-250px";
         }
-      } 
+      };
     </script>
   </body>
 </html>
